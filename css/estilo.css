@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+
+html,
+body
+{
+  background-color: white;
+}
+
+h1,
+h2 
+{
+  margin-left: 40px;
+  color:grey;
+  font-size: 180%;
+  font-family: "Comic Sans MS";
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #000;
+}
+
+p 
+{
+  color:gray;
+  font-size: 120%;
+  text-align: justify;
+  font-family: "Comic Sans MS";
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000;
+}
+
+.img-pers
+{
+  width: 60%;
+  height: 110%;
+  border: 5px solid black;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+
+.img-pers:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 0 9999px rgb(0, 0 ,0 , 0.5);
+}
+
+.rodape
+{
+  background-color: black;
+  color: white;
+  clear: both;
+  padding: 10px;
+}
+
+.icon-khalid
+{
+  width: 40%;
+  height: 40%;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+
+.icon-zari
+{
+  width: 60%;
+  height: 60%;
+  margin-left: 5%;
+}
+
+.continua
+{
+  margin-top: -5%;
+  width: 50%;
+  height: 100%;
+}
